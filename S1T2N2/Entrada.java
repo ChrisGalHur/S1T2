@@ -143,7 +143,7 @@ public class Entrada extends Exception{
 			try {
 				System.out.println(msjeEntrada);
 				siONo = scan.next().toUpperCase().charAt(0);
-				comprobante = String.valueOf(siONo).equals("S");//si l’usuari/*ària introdueix “s”, retorna “true”, si l’usuari introdueix “n”, retorna “false”.
+				comprobante = String.valueOf(siONo).equals("S");
 				salida = true;
 			}catch (Exception e) {
 				System.out.println("Eso no es una respuesta!!");
